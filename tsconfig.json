@@ -8,5 +8,5 @@
         "skipLibCheck": true,
     },
 
-    "exclude": ["node_modules", "package-lock.json", ".env"]
+    "exclude": ["node_modules"],
 }

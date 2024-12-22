@@ -36,7 +36,7 @@ export default new Command({
         } catch(error) {
             console.log(error);
 
-            client.embed.setDescription("Uh-oh! An unknown error occurred while trying to reload all commands and events...")
+            client.embed.setDescription("Uh-oh! An unknown error occurred while trying to reload all commands and events...");
         };
 
         return interaction.reply({ embeds: [client.embed], ephemeral: ephemeral });
