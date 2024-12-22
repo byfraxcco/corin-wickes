@@ -1,8 +1,12 @@
 {
     "main": "./sources/index.ts",
+    "scripts": {
+        "dev": "ts-node ."
+    },
     "dependencies": {
         "axios": "^1.7.9",
         "discord.js": "^14.16.3",
-        "dotenv": "^16.4.7"
+        "dotenv": "^16.4.7",
+        "ts-node": "^10.9.2"
     }
 }
