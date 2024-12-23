@@ -4,6 +4,8 @@ export default new Command({
     data: {
         name: "clear",
         description: "Delete a number of messages from a channel or user",
+        defaultMemberPermissions: ["ManageMessages"],
+        dmPermission: false,
         options: [
             {
                 type: 10,

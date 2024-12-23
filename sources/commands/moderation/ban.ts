@@ -5,7 +5,8 @@ export default new Command({
     data: {
         name: "ban",
         description: "Ban a user from the server",
-        defaultMemberPermissions: ["BanMembers"],   
+        defaultMemberPermissions: ["BanMembers"], 
+        dmPermission: false,  
         options: [
             {
                 type: 6,

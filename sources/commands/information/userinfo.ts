@@ -29,7 +29,7 @@ export default new Command({
             },
         );
 
-        if(interaction.guild.members.cache.has(user.id)) {
+        if(interaction.guild && interaction.guild.members.cache.has(user.id)) {
             const member = interaction.guild.members.cache.get(user.id);
 
             client.embed.addFields(

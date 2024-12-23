@@ -5,6 +5,7 @@ export default new Command({
         name: "unban",
         description: "Unban a user using their ID",
         defaultMemberPermissions: ["BanMembers"],
+        dmPermission: false,
         options: [
             {
                 type: 3, 

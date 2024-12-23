@@ -5,6 +5,7 @@ export default new Command({
     data: {
         name: "reload",
         description: "Reload all commands and events",
+        dmPermission: false,
         options: [
             {
                 type: 5,

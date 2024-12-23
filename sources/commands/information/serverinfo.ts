@@ -6,6 +6,7 @@ export default new Command({
     data: {
         name: "serverinfo",
         description: "Show server's informations",
+        dmPermission: false,
     },
 
     async execute(client, interaction) {

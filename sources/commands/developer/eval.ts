@@ -5,6 +5,7 @@ export default new Command({
     data: {
         name: "eval",
         description: "Eval some code",
+        dmPermission: false,
         options: [
             {
                 type: 3,

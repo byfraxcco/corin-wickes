@@ -6,6 +6,7 @@ export default new Command({
         name: "kick",
         description: "Kick user to the server",
         defaultMemberPermissions: ["KickMembers"],
+        dmPermission: false,
         options: [
             {
                 type: 6,
